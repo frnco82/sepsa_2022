@@ -9,7 +9,7 @@ pickle_in = open('classifier.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 def welcome():
-	return 'welcome all'
+	return 'Welcome all'
 
 # defining the function which will make the prediction using
 # the data which the user inputs
